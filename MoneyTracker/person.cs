@@ -6,5 +6,15 @@ namespace MoneyTracker
 {
     class person
     {
+        class Person
+        {
+            public Person(string fn, string ln)
+            {
+                First = fn;
+                Last = ln;
+            }
+            public string First { get; }
+            public string Last { get; }
+        }
     }
 }
