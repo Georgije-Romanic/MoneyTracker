@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MoneyTracker
+﻿namespace MoneyTracker
 {
     class person
     {
-        
+
         class Person
         {
             public int Alter { get; set; }
@@ -16,7 +12,9 @@ namespace MoneyTracker
                 First = firstname;
                 Last = lastname;
             }
+
             public string First { get; }
+            
             public string Last { get; }
         }
     }
