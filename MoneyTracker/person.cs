@@ -8,10 +8,10 @@
 
             public int Alter { get; set; }
 
-            public Person(string first, string last)
+            public Person(string fn, string ln)
             {
-                First = first;
-                Last = last;
+                First = fn;
+                Last = ln;
             }
 
             public string First { get; }
