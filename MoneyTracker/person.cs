@@ -12,9 +12,9 @@
                 Last = lastname;
             }
 
-            public string First { get; internal set; }
+            public string First { get; private set; }
             
-            public string Last { get; internal set; }
+            public string Last { get; private set; }
         }
     }
 }
