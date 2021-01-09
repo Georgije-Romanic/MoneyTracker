@@ -6,10 +6,10 @@
         {
             public int Alter { get; set; }
 
-            public Person(string fn, string ln)
+            public Person(string firstname, string lastname)
             {
-                First = fn;
-                Last = ln;
+                First = firstname;
+                Last = lastname;
             }
 
             public string First { get; }
