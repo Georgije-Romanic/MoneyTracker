@@ -5,12 +5,17 @@
 
         class Person
         {
+
+
+
+
+
             public int Alter { get; set; }
 
-            public Person(string firstname, string lastname)
+            public Person(string fn, string ln)
             {
-                First = firstname;
-                Last = lastname;
+                First = fn;
+                Last = ln;
             }
 
             public string First { get; }
