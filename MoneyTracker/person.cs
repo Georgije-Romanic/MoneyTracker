@@ -7,10 +7,10 @@
         {
             public int Alter { get; set; }
 
-            public Person(string firstname, string lastname)
+            public Person(string first, string last)
             {
-                First = firstname;
-                Last = lastname;
+                First = first;
+                Last = last;
             }
 
             public string First { get; }
